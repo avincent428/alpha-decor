@@ -1,8 +1,8 @@
-import userEvent from "@testing-library/user-event";
-import { getSpaceUntilMaxLength } from "@testing-library/user-event/dist/utils";
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "./GalleryImages.css";
 import CloseIcon from "@mui/icons-material/Close";
+import ArrowBackIosNewIcon from "@mui/icons-material/ArrowBackIosNew";
 
 const GalleryImages = ({ category }) => {
   let imgData = [
@@ -72,6 +72,12 @@ const GalleryImages = ({ category }) => {
 
   return (
     <>
+      <Link to="/gallery">
+        <div className="back-button">
+          <ArrowBackIosNewIcon />
+        </div>
+      </Link>
+
       <div className={modal ? " modal open" : "modal"}>
         <img src={tempImgSrc} alt="modal pop-up" />
         <CloseIcon onClick={() => setModal(false)} />

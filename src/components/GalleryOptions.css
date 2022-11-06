@@ -14,6 +14,21 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  -webkit-transition: all 350ms ease;
+  transition: all 350ms ease;
+  cursor: pointer;
+  margin-bottom: 12px;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.3);
+}
+
+.fade-out {
+  animation: fadeOutAnimation ease 0.7s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+.grid-item:hover {
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.6);
 }
 
 .centerpieces {
@@ -22,11 +37,26 @@
   background-repeat: no-repeat;
   background-position-y: -4em;
   background-position-x: -2em;
-  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.3);
 }
 
+.stage-decor {
+  background-image: url("/public/images/stage-decor1.png");
+  background-size: 110% 150%;
+  background-repeat: no-repeat;
+  background-position-y: -4em;
+  background-position-x: -2em;
+}
 .link-styling {
   text-decoration: none;
   color: white;
   font-size: 32px;
+}
+
+@keyframes fadeOutAnimation {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
