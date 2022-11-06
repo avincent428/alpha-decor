@@ -1,10 +1,10 @@
 import React from "react";
-import GalleryImages from "../GalleryImages";
+import GalleryOptions from "../GalleryOptions";
 
 const Gallery = () => {
   return (
     <div>
-      <GalleryImages />
+      <GalleryOptions />
     </div>
   );
 };

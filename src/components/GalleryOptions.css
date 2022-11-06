@@ -1,0 +1,32 @@
+.gallery-options {
+  display: inline-grid;
+  grid-template-columns: 49vw 49vw;
+  grid-template-rows: 50vh 50vh 50vh 50vh;
+  justify-content: center;
+  margin: 10px 10px 0 10px;
+  gap: 10px;
+}
+
+.grid-item {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.centerpieces {
+  background-image: url("/public/images/centerpiece-1.jpeg");
+  background-size: 110% 150%;
+  background-repeat: no-repeat;
+  background-position-y: -4em;
+  background-position-x: -2em;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.3);
+}
+
+.link-styling {
+  text-decoration: none;
+  color: white;
+  font-size: 32px;
+}

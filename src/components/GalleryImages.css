@@ -16,7 +16,7 @@
 }
 
 .gallery .pics:hover {
-  filter: opacity(0.8);
+  filter: opacity(0.4);
 }
 
 @media (max-width: 991px) {
@@ -47,7 +47,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #000000;
+  background-color: rgba(0, 0, 0, 0.85);
   transition: opacity 0.4s ease, visibility 0.4s ease,
     transform 0.5s ease-in-out;
   visibility: hidden;
@@ -61,6 +61,18 @@
   visibility: visible;
   opacity: 1;
   transform: scale(1);
+}
+
+.modal.open svg {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  width: 2rem;
+  height: 2rem;
+  padding: 5px;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: #ffffff;
+  cursor: pointer;
 }
 
 .modal img {

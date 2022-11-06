@@ -16,6 +16,10 @@
   font-size: 3rem;
 }
 
+html {
+  background-color: #242222;
+}
+
 .services {
   background-image: url("../public/images/img-2.jpg");
   background-position: center;
