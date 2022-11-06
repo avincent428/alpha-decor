@@ -78,9 +78,12 @@ const GalleryImages = ({ category }) => {
         </div>
       </Link>
 
-      <div className={modal ? " modal open" : "modal"}>
+      <div
+        className={modal ? " modal open" : "modal"}
+        onClick={() => setModal(false)}
+      >
         <img src={tempImgSrc} alt="modal pop-up" />
-        <CloseIcon onClick={() => setModal(false)} />
+        <CloseIcon />
       </div>
       <div className="gallery">
         {imgData.map((image, index) => {
