@@ -6,6 +6,12 @@ import Home from "./components/pages/Home";
 import Gallery from "./components/pages/Gallery";
 import GalleryImages from "./components/GalleryImages";
 
+//TODO
+// 1. Copywriting and sections on homepage
+// 2. Upper navbar with phone number, email, socials, and cta
+// 3. Find good images
+// 4. Rental System breakdown
+
 function App() {
   return (
     <>
