@@ -8,12 +8,11 @@ import GalleryImages from "./components/GalleryImages";
 import InfoBar from "./components/InfoBar";
 
 //TODO
-// 1. Copywriting and sections on homepage
+// 1. sections on homepage
 // 2. Upper navbar with phone number, email, socials, and cta
 // 3. Find good images
 // 4. Rental System breakdown
-// 5. Remove hero image and use background image
-
+// 5. Redo phone navbar, change color scheme
 function App() {
   return (
     <>

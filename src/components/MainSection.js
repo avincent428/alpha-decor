@@ -4,21 +4,30 @@ import "./MainSection.css";
 const MainSection = () => {
   return (
     <div className="section-container">
-      <section>
-        <h1>Dallas’ Top Event Decorator</h1>
-        <p>
-          Alpha Decor is a team of talented decorators that helps you create
-          your ideal event. We strive to create the perfect reflection of your
-          vision.
-        </p>
-        <p>
-          We decorate for all kinds of events including weddings, corporate
-          events, and various life events.
-        </p>
-        <p>
-          If you’re interested in beautiful decor that creates a one-of-a-kind
-          experience for events, we can help.
-        </p>
+      <section className="section-1">
+        <div className="section-1-text">
+          <h1>Dallas’ Top Event Decorator</h1>
+          <p>
+            Alpha Decor is a team of talented decorators that helps you create
+            your ideal event. We strive to create the perfect reflection of your
+            vision.
+          </p>
+          <br />
+          <p>
+            We decorate for all kinds of events including weddings, corporate
+            events, and various life events.
+          </p>
+          <br />
+          <p>
+            If you’re interested in beautiful decor that creates a one-of-a-kind
+            experience for events, we can help.
+          </p>
+        </div>
+        <img
+          className="wedding-photo"
+          src="/images/wedding-1.jpeg"
+          alt="wedding"
+        />
       </section>
 
       <br />
