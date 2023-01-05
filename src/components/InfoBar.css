@@ -1,0 +1,13 @@
+.info-bar {
+  background-color: rgb(255, 255, 255);
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  border-bottom: 1px solid rgb(228, 227, 227);
+  box-shadow: 1em black;
+}

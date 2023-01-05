@@ -10,13 +10,13 @@ function HeroSection() {
       <h1>Headline 1</h1>
       <p>Subtext</p>
       <div className="hero-btns">
-        <Button
+        {/* <Button
           className="btns"
           buttonStyle="btn--outline"
           buttonSize="btn--large"
         >
           GET STARTED
-        </Button>
+        </Button> */}
       </div>
     </div>
   );
