@@ -10,13 +10,6 @@
   z-index: 999;
 }
 
-/* .navbar:hover {
-  transition: all 0.3s ease-out;
-  background: rgba(0, 0, 0, 0.5);
-  color: #242424;
-  transition: 250ms;
-} */
-
 .navbar-container {
   display: flex;
   justify-content: center;
@@ -34,6 +27,8 @@
   font-size: 2rem;
   display: flex;
   align-items: center;
+  width: 75px;
+  height: 75px;
 }
 
 .fa-typo3 {

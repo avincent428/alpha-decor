@@ -23,8 +23,9 @@ const MainSection = () => {
             experience for events, we can help.
           </p>
         </div>
+
         <img
-          className="wedding-photo"
+          className="section-1-photo"
           src="/images/wedding-1.jpeg"
           alt="wedding"
         />
@@ -33,43 +34,56 @@ const MainSection = () => {
       <br />
       <br />
 
-      <section>
-        <h1>5+ Years of Professional Decorating Experience</h1>
-        <p>
-          When creating the perfect decor, experience makes a difference. All of
-          our clients receive expert advice on what will look best and how to
-          use their budget effectively.
-        </p>
-        <p>
-          Our goal is to create the event of your dreams - as experienced
-          decorators, we’ve learned that communication is one of the most
-          important factors in accomplishing this.
-        </p>
-        <ul>
-          <li>Experts in Event Decoration</li>
-          <li>Communicative and Imaginative Staff</li>
-          <li>Works Well with Hotels</li>
-          <li>Friendly with Several Vendors</li>
-        </ul>
+      <section className="section-2">
+        <div className="section-2-text">
+          <h1>5+ Years of Decorating Experience</h1>
+          <p>
+            When creating the perfect decor, experience makes a difference. All
+            of our clients receive expert advice on what will look best and how
+            to use their budget effectively.
+          </p>
+          <br />
+          <p>
+            Our goal is to create the event of your dreams - as experienced
+            decorators, we’ve learned that communication is one of the most
+            important factors in accomplishing this.
+          </p>
+          <br />
+          <ul>
+            <li>&nbsp;&nbsp;&nbsp;&nbsp;Experts in Event Decoration</li>
+            <li>&nbsp;&nbsp;&nbsp;&nbsp;Communicative and Imaginative Staff</li>
+            <li>&nbsp;&nbsp;&nbsp;&nbsp;Works Well with Hotels</li>
+            <li>&nbsp;&nbsp;&nbsp;&nbsp;Friendly with Several Vendors</li>
+          </ul>
+        </div>
+        <div className="section-2-photo"></div>
       </section>
 
       <br />
       <br />
-      <section>
-        <h1>Luxurious Events at an Affordable Price</h1>
-        <p>
-          Get ready to have your dream event! Whatever your budget may be, we
-          will help make your event as grand and lavish as it should be.
-        </p>
-        <p>
-          We strive to bring only the best. Our utmost attention and imagination
-          is given to even the smallest detail to ensure your event looks and
-          feels picture-perfect.
-        </p>
-        <p>
-          You can rest assured that every part of your decor will be taken care
-          of with love and effort - no sub-standards.
-        </p>
+      <section className="section-1">
+        <div className="section-1-text">
+          <h1>Luxurious Events at an Affordable Price</h1>
+          <p>
+            Get ready to have your dream event! Whatever your budget may be, we
+            will help make your event as grand and lavish as it should be.
+          </p>
+          <p>
+            We strive to bring only the best. Our utmost attention and
+            imagination is given to even the smallest detail to ensure your
+            event looks and feels picture-perfect.
+          </p>
+          <p>
+            You can rest assured that every part of your decor will be taken
+            care of with love and effort - no sub-standards.
+          </p>
+        </div>
+
+        <img
+          className="section-1-photo"
+          src="/images/wedding-1.jpeg"
+          alt="wedding"
+        />
       </section>
 
       <br />
