@@ -81,19 +81,22 @@ ul {
   object-fit: cover;
   left: 5%;
   box-shadow: 0px 0px 15px rgb(159, 159, 159);
-  background: url("/public/images/alpha-staff.png") no-repeat;
+  background: url("/public/images/img-home.jpg") no-repeat center center/cover;
+  background-color: #858484;
   background-size: 100% 100%;
 }
 
 .cta {
   display: flex;
-  background-color: black;
+  background: url("/public/images/cta/cta-bg-3.jpg");
+  background-size: cover;
   width: 100%;
   height: 20vh;
   margin-top: 10vh;
   justify-content: center;
   align-items: center;
   margin-bottom: 4rem;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.623);
 }
 
 .cta-text {
@@ -103,7 +106,7 @@ ul {
 }
 
 .cta-button {
-  background-color: black;
+  background-color: transparent;
   padding: 8px 20px;
   border-radius: 2px;
   outline: none;
@@ -122,6 +125,10 @@ ul {
   color: black;
 }
 
+#section-6 {
+  height: 40vh;
+}
+
 #section-2-text {
   top: 2rem;
 }
@@ -135,7 +142,7 @@ ul {
 }
 
 #section-6-text {
-  top: 6rem;
+  top: 2rem;
 }
 
 #section-7-text {
@@ -147,4 +154,10 @@ ul {
 }
 #cta-text-3 {
   padding-right: 34rem;
+}
+
+#photo-6 {
+  background: url("/public/images/main/section-6-photo.jpeg") no-repeat center
+    center/cover;
+  height: 35vh;
 }

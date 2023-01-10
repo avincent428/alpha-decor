@@ -27,7 +27,7 @@ const MainSection = () => {
         <img
           className="section-photo"
           id="photo-1"
-          src="/images/wedding-1.jpeg"
+          src="/images/main/section-1-photo.jpeg"
           alt="wedding"
         />
       </section>
@@ -80,7 +80,7 @@ const MainSection = () => {
         <img
           className="section-photo"
           id="photo-3"
-          src="/images/wedding-1.jpeg"
+          src="/images/main/section-3-photo.jpg"
           alt="wedding"
         />
       </section>
@@ -130,7 +130,7 @@ const MainSection = () => {
         <img
           className="section-photo"
           id="photo-5"
-          src="/images/wedding-1.jpeg"
+          src="/images/main/section-5-photo.png"
           alt="wedding"
         />
       </section>
@@ -184,7 +184,7 @@ const MainSection = () => {
         <img
           className="section-photo"
           id="photo-7"
-          src="/images/wedding-1.jpeg"
+          src="/images/img-home.jpg"
           alt="wedding"
         />
       </section>
