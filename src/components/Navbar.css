@@ -20,7 +20,6 @@
 }
 
 .navbar-logo {
-  color: rgb(0, 0, 0);
   justify-self: start;
   margin-left: -20px;
   cursor: pointer;
@@ -66,7 +65,7 @@
 }
 
 .fa-bars {
-  color: #fff;
+  color: #242424;
 }
 
 .nav-links-mobile {
@@ -95,7 +94,7 @@
   }
 
   .nav-menu.active {
-    background: #242222;
+    background: white;
     left: 0;
     opacity: 1;
     transition: all 0.5s ease;
@@ -104,9 +103,9 @@
 
   .nav-links {
     text-align: center;
-    padding: 2rem;
     width: 100%;
     display: table;
+    margin-top: -320px;
   }
 
   .nav-links:hover {
@@ -119,7 +118,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    transform: translate(25%, 50%);
+    transform: translate(0, -15%);
   }
 
   .menu-icon {
@@ -133,14 +132,13 @@
   }
 
   .fa-times {
-    color: #fff;
+    color: #242424;
     font-size: 2rem;
   }
 
   .nav-links-mobile {
     display: block;
     text-align: center;
-    margin: 2rem auto;
     border-radius: 4px;
     width: 80%;
     text-decoration: none;

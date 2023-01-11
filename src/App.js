@@ -8,9 +8,8 @@ import GalleryImages from "./components/GalleryImages";
 import InfoBar from "./components/InfoBar";
 
 //TODO
-// 2. Upper navbar with phone number, email, socials, and cta
-// 4. Rental System breakdown
-// 5. Redo phone navbar, change color scheme
+// 1. Rental System breakdown
+// 2. Redo phone navbar, change color scheme
 function App() {
   return (
     <>
