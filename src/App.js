@@ -9,7 +9,6 @@ import InfoBar from "./components/InfoBar";
 
 //TODO
 // 1. Rental System breakdown
-// 2. Redo phone navbar, change color scheme
 function App() {
   return (
     <>

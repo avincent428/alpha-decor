@@ -100,7 +100,7 @@ const MainSection = () => {
           <p>
             Interested in adding some flowers to your event? You’ve come to the
             right place. We pride ourselves on creating floral arrangements that
-            will make your guests say "wow!".
+            will make your guests say "wow!"
           </p>
           <br />
           <p>
