@@ -9,6 +9,9 @@ import InfoBar from "./components/InfoBar";
 
 //TODO
 // 1. Rental System breakdown
+// 2. Testimonials
+// 3. Contact Page/Form
+// 4. Make Mobile-Friendly
 function App() {
   return (
     <>

@@ -40,23 +40,17 @@
 }
 
 .fb-icon:hover {
-  color: white;
-  background-color: #0165e1;
-  border-radius: 5px;
+  color: #0165e1;
   transition: all 0.2s ease-out;
 }
 
 .ig-icon:hover {
-  color: white;
-  background-color: #d62976;
-  border-radius: 8px;
+  color: #d62976;
   transition: all 0.2s ease-out;
 }
 
 .twitter-icon:hover {
-  color: white;
-  background-color: #1da1f2;
-  border-radius: 4px;
+  color: #1da1f2;
   transition: all 0.2s ease-out;
 }
 
