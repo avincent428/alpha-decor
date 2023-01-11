@@ -19,6 +19,7 @@
   cursor: pointer;
   margin-bottom: 12px;
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.3);
+  border-radius: 15px;
 }
 
 .fade-out {
@@ -32,19 +33,11 @@
 }
 
 .centerpieces {
-  background-image: url("/public/images/centerpiece-1.jpeg");
-  background-size: 110% 150%;
-  background-repeat: no-repeat;
-  background-position-y: -4em;
-  background-position-x: -2em;
+  background: url("/public/images/centerpiece-1.jpeg") center;
 }
 
 .stage-decor {
-  background-image: url("/public/images/stage-decor1.png");
-  background-size: 110% 150%;
-  background-repeat: no-repeat;
-  background-position-y: -4em;
-  background-position-x: -2em;
+  background: url("/public/images/stage-decor1.png") center;
 }
 .link-styling {
   text-decoration: none;

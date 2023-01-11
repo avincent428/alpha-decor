@@ -16,31 +16,28 @@
 }
 
 .gallery .pics:hover {
-  filter: opacity(0.4);
+  filter: opacity(0.8);
 }
 
 .back-button {
   width: 50px;
   height: 50px;
-  border: solid 1px white;
-  color: white;
+  color: black;
+  background-color: white;
   border-radius: 100px;
   display: flex;
   align-items: center;
   justify-content: center;
   position: fixed;
   z-index: 999;
-  text-align: center;
   right: 48%;
   bottom: 5%;
-  -webkit-transition: all 350ms ease;
   transition: all 350ms ease;
   cursor: pointer;
 }
 
 .back-button:hover {
-  background-color: white;
-  color: black;
+  transform: scale(1.1);
 }
 
 @media (max-width: 991px) {
@@ -100,7 +97,6 @@
   width: 2rem;
   height: 2rem;
   padding: 5px;
-  background-color: rgba(0, 0, 0, 0.4);
   color: #ffffff;
   cursor: pointer;
 }
