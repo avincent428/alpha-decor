@@ -29,9 +29,9 @@ function App() {
             element={<GalleryImages category="centerpiece" />}
           />
           <Route
-            path="/gallery/bouqets"
+            path="/gallery/bouquets"
             exact
-            element={<GalleryImages category="bouqet" />}
+            element={<GalleryImages category="bouquet" />}
           />
           <Route
             path="/gallery/reception-decor"

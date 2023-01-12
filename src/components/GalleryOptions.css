@@ -2,19 +2,16 @@
   display: inline-grid;
   grid-template-columns: 49vw 49vw;
   grid-template-rows: 50vh 50vh 50vh 50vh;
-  justify-content: center;
-  margin: 10px 10px 0 10px;
+  margin: 10px 0 10px 10px;
   gap: 10px;
 }
 
 .grid-item {
   width: 100%;
   height: 100%;
-  background-color: black;
   display: flex;
   justify-content: center;
   align-items: center;
-  -webkit-transition: all 350ms ease;
   transition: all 350ms ease;
   cursor: pointer;
   margin-bottom: 12px;
@@ -22,34 +19,58 @@
   border-radius: 15px;
 }
 
-.fade-out {
-  animation: fadeOutAnimation ease 0.7s;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
-}
-
 .grid-item:hover {
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.6);
 }
 
-.centerpieces {
-  background: url("/public/images/centerpiece-1.jpeg") center;
-}
-
-.stage-decor {
-  background: url("/public/images/stage-decor1.png") center;
-}
 .link-styling {
   text-decoration: none;
   color: white;
   font-size: 32px;
 }
 
-@keyframes fadeOutAnimation {
-  0% {
-    opacity: 1;
+.centerpieces {
+  background: url("/public/images/gallery/centerpiece-1.jpeg") center no-repeat;
+  background-size: 49vw 75vh;
+}
+
+.stage-decor {
+  background: url("/public/images/gallery/stage-decor1.png") center no-repeat;
+  background-size: 49vw 50vh;
+}
+
+.reception-decor {
+  background: url("/public/images/gallery/reception-1.jpeg") center no-repeat;
+  background-size: 49vw 50vh;
+}
+
+.ceremonies {
+  background: url("/public/images/gallery/ceremonies-1.jpg") center no-repeat;
+  background-size: 49vw 50vh;
+}
+
+.bouquets {
+  background: url("/public/images/gallery/bouquets-1.JPG") center no-repeat;
+  background-size: 49vw 100vh;
+}
+
+.head-tables {
+  background: url("/public/images/gallery/head-tables-1.jpg") center no-repeat;
+  background-size: 49vw 50vh;
+}
+.cake-tables {
+  background: url("/public/images/gallery/cake-tables-1.jpg") center no-repeat;
+  background-size: 49vw 80vh;
+  background-position-y: -30vh;
+  margin-left: 50%;
+}
+
+@media screen and (max-width: 960px) {
+  .gallery-options {
+    grid-template-columns: 96vw;
+    grid-template-rows: 50vh 50vh 50vh 50vh 50vh 50vh 50vh;
   }
-  100% {
-    opacity: 0;
+  .cake-tables {
+    margin-left: 0;
   }
 }

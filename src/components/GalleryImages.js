@@ -87,7 +87,7 @@ const GalleryImages = ({ category }) => {
       </div>
       <div className="gallery">
         {imgData.map((image, index) => {
-          if (image.category == category) {
+          if (image.category === category) {
             return (
               <div
                 className="pics"
@@ -101,6 +101,8 @@ const GalleryImages = ({ category }) => {
                 />
               </div>
             );
+          } else {
+            return console.error;
           }
         })}
       </div>
