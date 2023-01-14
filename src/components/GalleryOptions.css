@@ -30,43 +30,43 @@
 }
 
 .centerpieces {
-  background: url("/public/images/gallery/main-photos/centerpiece-1.jpeg")
+  background: url("/public/images/gallery/gallery-options-photos/centerpiece-main.jpeg")
     center no-repeat;
   background-size: 49vw 75vh;
 }
 
 .stage-decor {
-  background: url("/public/images/gallery/main-photos/stage-decor1.png") center
-    no-repeat;
+  background: url("/public/images/gallery/gallery-options-photos/stage-decor-main.png")
+    center no-repeat;
   background-size: 49vw 50vh;
 }
 
 .reception-decor {
-  background: url("/public/images/gallery/main-photos/reception-1.jpeg") center
-    no-repeat;
+  background: url("/public/images/gallery/gallery-options-photos/reception-main.jpeg")
+    center no-repeat;
   background-size: 49vw 50vh;
 }
 
 .ceremonies {
-  background: url("/public/images/gallery/main-photos/ceremonies-1.jpg") center
-    no-repeat;
+  background: url("/public/images/gallery/gallery-options-photos/ceremonies-main.jpg")
+    center no-repeat;
   background-size: 49vw 50vh;
 }
 
 .bouquets {
-  background: url("/public/images/gallery/main-photos/bouquets-1.JPG") center
-    no-repeat;
+  background: url("/public/images/gallery/gallery-options-photos/bouquets-main.JPG")
+    center no-repeat;
   background-size: 49vw 100vh;
 }
 
 .head-tables {
-  background: url("/public/images/gallery/main-photos/head-tables-1.jpg") center
-    no-repeat;
+  background: url("/public/images/gallery/gallery-options-photos/head-tables-main.jpg")
+    center no-repeat;
   background-size: 49vw 50vh;
 }
 .cake-tables {
-  background: url("/public/images/gallery/main-photos/cake-tables-1.jpg") center
-    no-repeat;
+  background: url("/public/images/gallery/gallery-options-photos/cake-tables-main.jpg")
+    center no-repeat;
   background-size: 49vw 80vh;
   background-position-y: -30vh;
 }
@@ -92,5 +92,8 @@
   .cake-tables {
     margin-left: 0;
     background-position-y: 0;
+  }
+  .cake-tables-container {
+    left: 0;
   }
 }
