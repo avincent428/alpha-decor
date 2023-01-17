@@ -275,6 +275,102 @@ const GalleryImages = ({ category }) => {
       category: "stage-decor",
       alt: "this is the fifth image",
     },
+    {
+      id: 47,
+      imgSrc: "/images/gallery/ceremonies/ceremonies-2.jpg",
+      category: "ceremony",
+      alt: "this is the fifth image",
+    },
+    {
+      id: 48,
+      imgSrc: "/images/gallery/ceremonies/ceremonies-3.jpg",
+      category: "ceremony",
+      alt: "this is the fifth image",
+    },
+    {
+      id: 49,
+      imgSrc: "/images/gallery/ceremonies/ceremonies-4.jpg",
+      category: "ceremony",
+      alt: "this is the fifth image",
+    },
+    {
+      id: 50,
+      imgSrc: "/images/gallery/ceremonies/ceremonies-5.jpg",
+      category: "ceremony",
+      alt: "this is the fifth image",
+    },
+    {
+      id: 51,
+      imgSrc: "/images/gallery/ceremonies/ceremonies-6.JPG",
+      category: "ceremony",
+      alt: "this is the fifth image",
+    },
+    {
+      id: 52,
+      imgSrc: "/images/gallery/ceremonies/ceremonies-7.JPG",
+      category: "ceremony",
+      alt: "this is the fifth image",
+    },
+    {
+      id: 54,
+      imgSrc: "/images/gallery/ceremonies/ceremonies-8.JPG",
+      category: "ceremony",
+      alt: "this is the fifth image",
+    },
+    {
+      id: 55,
+      imgSrc: "/images/gallery/ceremonies/ceremonies-9.JPG",
+      category: "ceremony",
+      alt: "this is the fifth image",
+    },
+    {
+      id: 56,
+      imgSrc: "/images/gallery/ceremonies/ceremonies-10.jpg",
+      category: "ceremony",
+      alt: "this is the fifth image",
+    },
+    {
+      id: 57,
+      imgSrc: "/images/gallery/ceremonies/ceremonies-11.jpg",
+      category: "ceremony",
+      alt: "this is the fifth image",
+    },
+    {
+      id: 58,
+      imgSrc: "/images/gallery/ceremonies/ceremonies-12.jpg",
+      category: "ceremony",
+      alt: "this is the fifth image",
+    },
+    {
+      id: 59,
+      imgSrc: "/images/gallery/ceremonies/ceremonies-13.jpg",
+      category: "ceremony",
+      alt: "this is the fifth image",
+    },
+    {
+      id: 60,
+      imgSrc: "/images/gallery/ceremonies/ceremonies-14.jpeg",
+      category: "ceremony",
+      alt: "this is the fifth image",
+    },
+    {
+      id: 61,
+      imgSrc: "/images/gallery/ceremonies/ceremonies-15.jpeg",
+      category: "ceremony",
+      alt: "this is the fifth image",
+    },
+    {
+      id: 62,
+      imgSrc: "/images/gallery/ceremonies/ceremonies-16.JPG",
+      category: "ceremony",
+      alt: "this is the fifth image",
+    },
+    {
+      id: 63,
+      imgSrc: "/images/gallery/ceremonies/ceremonies-17.jpeg",
+      category: "ceremony",
+      alt: "this is the fifth image",
+    },
   ];
 
   const [modal, setModal] = useState(false);
