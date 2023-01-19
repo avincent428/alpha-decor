@@ -12,7 +12,6 @@ import InfoBar from "./components/InfoBar";
 // 2. Testimonials
 // 3. Contact Page/Form
 // 4. Make Mobile-Friendly
-// 5. Add images to Gallery
 // 6. Footer
 function App() {
   return (
