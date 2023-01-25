@@ -8,11 +8,10 @@ import GalleryImages from "./components/GalleryImages";
 import InfoBar from "./components/InfoBar";
 
 //TODO
-// 1. Rental System breakdown
-// 2. Testimonials
-// 3. Contact Page/Form
-// 4. Make Mobile-Friendly
-// 6. Footer
+// 1. Contact Page/Form
+// 2. Make Mobile-Friendly
+// 3. Footer
+// 4. Rental System Implementation
 function App() {
   return (
     <>
