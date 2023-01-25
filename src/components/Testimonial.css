@@ -1,0 +1,49 @@
+.selected {
+  box-shadow: 0px 15px 40px rgba(216, 229, 234, 0.583);
+}
+
+.hide-text {
+  visibility: hidden;
+}
+
+.testimonial-container {
+  display: grid;
+  gap: 1px;
+  grid-template-columns: 400px 500px;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.testimonial-header {
+  display: flex;
+  width: 300px;
+  height: 100px;
+  margin-bottom: 10px;
+  border-radius: 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+.testimonial-name {
+  font-size: 20px;
+}
+
+.name-container {
+  height: fit-content;
+  width: fit-content;
+}
+
+.text-container {
+  display: grid;
+  grid-column: 2;
+  grid-row: 1;
+}
+
+p {
+  display: flex;
+  grid-column: 1;
+  grid-row: 1;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+}
