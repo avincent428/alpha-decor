@@ -6,6 +6,7 @@ import Home from "./components/pages/Home";
 import Gallery from "./components/pages/Gallery";
 import GalleryImages from "./components/GalleryImages";
 import InfoBar from "./components/InfoBar";
+import Footer from "./components/Footer";
 
 //TODO
 // 1. Contact Page/Form
@@ -57,6 +58,7 @@ function App() {
             element={<GalleryImages category="cake-table" />}
           />
         </Routes>
+        <Footer />
       </Router>
     </>
   );

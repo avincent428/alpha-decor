@@ -7,7 +7,7 @@ import TwitterIcon from "@mui/icons-material/Twitter";
 const InfoBar = () => {
   return (
     <div className="info-bar">
-      <div className="phone-nbr">Phone Number: (214) 228-4612</div>
+      <div className="phone-nbr">Phone: (214) 228-4612</div>
       <div className="email">Email: alphadecordallas@gmail.com</div>
       <div className="social-container">
         <a
